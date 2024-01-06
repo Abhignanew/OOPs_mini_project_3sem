@@ -232,11 +232,11 @@ public class SpendingTracker extends javax.swing.JFrame {
 
             },
             new String [] {
-                "ID", "Category", "Amount", "Title 4"
+                "ID", "Category", "Date", "Amount"
             }
         ) {
             boolean[] canEdit = new boolean [] {
-                false, false, false, true
+                false, false, false, false
             };
 
             public boolean isCellEditable(int rowIndex, int columnIndex) {

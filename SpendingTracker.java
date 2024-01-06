@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package gui;
+package gui.OOPs_mini_project_3sem;
 import java.sql.*;
 import javax.swing.JOptionPane;
 
@@ -227,11 +227,11 @@ public class SpendingTracker extends javax.swing.JFrame {
 
             },
             new String [] {
-                "ID", "Category", "Amount", "Title 4"
+                "ID", "Category", "Date", "Amount"
             }
         ) {
             boolean[] canEdit = new boolean [] {
-                false, false, false, true
+                false, false, false, false
             };
 
             public boolean isCellEditable(int rowIndex, int columnIndex) {
